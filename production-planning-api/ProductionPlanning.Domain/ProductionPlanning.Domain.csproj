@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="AggregatesModel\MachineAggregate\MachineId.cs" />
+      <Compile Remove="AggregatesModel\MachineTypeAggregate\MachineTypeId.cs" />
+      <Compile Remove="AggregatesModel\OperationAggregate\OperationId.cs" />
+      <Compile Remove="AggregatesModel\ProductionLineAggregate\ProductionLineId.cs" />
+      <Compile Remove="Class1.cs" />
+    </ItemGroup>
+
+</Project>
